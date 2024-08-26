@@ -14,3 +14,6 @@ botbuddy = {git = "https://github.com/inthescales/bot-buddy.git"}
 [requires]
 python_version = "3.11"
 python_full_version = "3.11.9"
+
+[scripts]
+lyre = "python ./lyre.py --test"
